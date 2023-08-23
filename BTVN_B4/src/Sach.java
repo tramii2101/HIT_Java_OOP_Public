@@ -1,13 +1,10 @@
 import java.util.Scanner;
 
 public class Sach {
-
-    static Scanner sc = new Scanner(System.in);
     private String maSach;
     private String tenSach;
     private String tenTacGia;
     private String nhaXuatBan;
-
     private int namXuatban;
 
     public Sach() {
@@ -63,6 +60,7 @@ public class Sach {
     }
 
     public void input() {
+        Scanner sc = new Scanner(System.in);
         System.out.print("Nhap ma sach: ");
         maSach = sc.nextLine();
         System.out.print("Nhap ten sach: ");
