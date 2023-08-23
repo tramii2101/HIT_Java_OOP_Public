@@ -5,9 +5,7 @@ public class HCN {
     private float R;
 
     public HCN() {
-    }
-
-    ;
+    };
 
     public HCN(float d, float r) {
         D = d;
